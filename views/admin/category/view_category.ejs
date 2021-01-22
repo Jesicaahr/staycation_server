@@ -70,7 +70,6 @@
     $('#dataTable').on('click', '.button-update', function () {
         let id = $(this).data('id')
         let name = $(this).data('name')
-        console.log(id, name, '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>');
         $('#edit-Modal').modal('show')
         $('.id').val(id)
         $('.name').val(name)
